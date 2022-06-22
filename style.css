@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+a{
+    text-decoration: none;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -100,7 +104,7 @@
 
 .members-container{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 100%;
     gap: 100px;
 }
@@ -112,6 +116,7 @@
     flex: 1;
     align-items: center;
     gap: 8px;
+    max-width: 250px;
 }
 
 .member-photo{
@@ -212,6 +217,11 @@
 }
 
 .footer-text{
+    color: #e5e7eb;
+    font-weight: 300;
+}
+
+.footer-text a{
     color: #e5e7eb;
     font-weight: 300;
 }
