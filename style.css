@@ -160,14 +160,34 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
+    gap: 100px;
 }
 
 .member{
     display: flex;
     width: 100%;
     flex-direction: column;
+    flex: 1;
+    align-items: center;
+    gap: 8px;
 }
 
 .member-photo{
+    box-sizing: border-box;
+    width: 100%;
+    border: solid #3882f6;
+    border-radius: 20px;
+}
 
+.member-name{
+    font-size: 24px;
+    color: #1F2937;
+    font-weight: bold;
+}
+
+.member-description{
+    font-size: 18px;
+    font-weight: lighter;
+    color: #1F2937;
+    padding: 0 8px;
 }
