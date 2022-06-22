@@ -55,8 +55,8 @@
 .hero-text{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    gap: 10px;
+    justify-content: center;
+    gap: 16px;
 }
 
 .hero-header{
